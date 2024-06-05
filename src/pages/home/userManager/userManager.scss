@@ -1,0 +1,28 @@
+#UserManager {
+	.header {
+		display: flex;
+		flex-direction: column;
+		.row {
+			display: flex;
+			.item {
+				margin-right: 5px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.content {
+		.pagination {
+			margin-top: 10px;
+		}
+
+		.btn-status {
+			width: 100px;
+			min-width: 100px;
+			max-width: 100px;
+		}
+	}
+}

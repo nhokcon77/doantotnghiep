@@ -1,0 +1,10 @@
+@use '@common/styles/scss' as *;
+
+#formlogin {
+	width: 500px;
+	padding: 35px 35px 5px 35px;
+	margin: 25vh auto;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: $box-shadow;
+}

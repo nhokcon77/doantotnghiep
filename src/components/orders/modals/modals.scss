@@ -1,0 +1,74 @@
+#OrderView {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	.item {
+		margin-bottom: 10px;
+		&.flex {
+			display: flex;
+		}
+		&.full {
+			width: 100%;
+		}
+		.label {
+			font-size: 1rem;
+			font-weight: bold;
+			margin-right: 15px;
+			display: block;
+			&.min150 {
+				min-width: 150px;
+				max-width: 150px;
+			}
+		}
+		.value {
+			font-size: 0.9rem;
+		}
+	}
+	.products {
+		.product {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border-bottom: 1px solid #ccc;
+			border-top: 1px solid #ccc;
+			&.flex {
+				display: flex;
+			}
+			&.full {
+				width: 100%;
+			}
+			.label {
+				font-size: 1rem;
+				font-weight: bold;
+				margin-right: 15px;
+				display: block;
+			}
+			.value {
+				font-size: 0.9rem;
+			}
+		}
+	}
+	.priceInfo {
+		.price {
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin-right: 15px;
+			display: block;
+		}
+		.discount {
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin-right: 15px;
+			display: block;
+		}
+		.total {
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin-right: 15px;
+			display: block;
+		}
+	}
+}
+
+#OrderTimeLine {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

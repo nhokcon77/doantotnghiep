@@ -1,0 +1,8 @@
+$width-step: 10;
+$width-max: 100;
+// sử dụng for để tạo ra các class có width 10 20 30 40 50 60 70 80 90 100
+@for $i from 1 through $width-step {
+	.w-#{$i} {
+		width: $i * 1%;
+	}
+}

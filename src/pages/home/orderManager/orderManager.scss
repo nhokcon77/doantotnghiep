@@ -1,0 +1,27 @@
+@use '@common/styles/scss' as *;
+#OrderManager {
+	.header {
+		display: flex;
+		flex-direction: column;
+		.row {
+			display: flex;
+			flex-direction: row;
+			.item {
+				margin-right: 5px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+		.min-width-200 {
+			min-width: 200px;
+		}
+	}
+	.content {
+		.pagination {
+			margin-top: 10px;
+		}
+	}
+}
